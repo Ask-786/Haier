@@ -13,10 +13,12 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <script defer src="https://kit.fontawesome.com/b02fd68529.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
 </head>
 
 <body>
-    <div class="root-div">
+    <div class="root-div position-relative">
         <nav class="navbar navbar-expand-xl navigation">
             <div class="container-lg d-flex justify-content-start position-relative inner-navigation">
                 <a href="#" class="navbar-brand">
@@ -45,7 +47,71 @@
                 </div>
             </div>
         </nav>
+        <div class="swiper wide-screen-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="/Images/Swiper/W020220912463580566904.jpg" alt="" width="100%">
+                </div>
+                <div class="swiper-slide"><img src="/Images/Swiper/W020220629514199152756.jpg" alt="" width="100%">
+                </div>
+                <div class="swiper-slide"><img src="/Images/Swiper/W020220629514200252690.jpg" alt="" width="100%">
+                </div>
+                <div class="swiper-slide"><img src="/Images/Swiper/W020220720437406402846.jpg" alt="" width="100%">
+                </div>
+                <div class="swiper-slide"><img src="/Images/Swiper/W020220812677189375859.jpg" alt="" width="100%">
+                </div>
+                <div class="swiper-slide"><img src="/Images/Swiper/W020220526516062611867.jpg" alt="" width="100%">
+                </div>
+            </div>
+            <div class="swiper-pagination">
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+        <div class="swiper short-screen-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="/Images/Swiper Small/W020220912463581158660.jpg" alt="" width="100%">
+                </div>
+                <div class="swiper-slide"><img src="/Images/Swiper Small/W020220629514199786016.jpg" alt="" width="100%">
+                </div>
+                <div class="swiper-slide"><img src="/Images/Swiper Small/W020220629514200673758.jpg" alt="" width="100%">
+                </div>
+                <div class="swiper-slide"><img src="/Images/Swiper Small/W020220720437406960813.jpg" alt="" width="100%">
+                </div>
+                <div class="swiper-slide"><img src="./Images/Swiper Small/W020220526516063097986.jpg" alt="" width="100%">
+                </div>
+                <div class="swiper-slide"><img src="/Images/Swiper Small/W020220812677189873542.jpg" alt="" width="100%">
+                </div>
+            </div>
+            <div class="swiper-pagination">
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        <div class="container-fluid mt-5 falgshipheader">
+            <div class="row">
+                <div class="col-12">
+                    FLAGSHIP PRODUCTS
+                </div>
+            </div>
+        </div>
+    
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            loop: true,
+            speed: 1000,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
 </body>
 
 </html>

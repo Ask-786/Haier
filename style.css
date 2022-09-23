@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 .navigation{
     display: flex;
     background-color: #0C5CA7;
@@ -53,3 +57,26 @@
     }
 }
 
+@media(width<750px){
+    .wide-screen-swiper{
+        display: none;
+    }
+    .short-screen-swiper{
+        display: block;
+    }
+}
+@media (width>=750px){
+    .short-screen-swiper{
+        display: none;
+    }
+    .wide-screen-swiper{
+        display: block;
+    }
+    
+}
+.falgshipheader{
+    font-family: 'Effra-Regular',Arial;
+    font-size: 70px;
+    font-weight: 700;
+    text-align: center;
+}
