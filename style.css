@@ -166,10 +166,65 @@ body{
     font-size: 12px;
     font-family: 'Effra-Bold'Arial;
 }
+@media (width<768px){
+    .discription-expansion{
+        font-size: 17px;
+    }
+}
 .date-with-year{
     color: #0C5CA7;
     font-weight: 500;
     position: relative;
 }
+.date-with-year div{
+    cursor: pointer;
+}
+.attensive-header{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 700;
+    font-family: 'Effra-Bold'Arial;
+    line-height: initial;
+}
+.service-image-1{
+    left: 0;
+    z-index: 1;
+    width: 55%;
+    margin-bottom: 50px;
+}
+.service-image-2{
+    right: 0;
+    width: 55%;
+    padding-bottom: 50px;
+    bottom: 0;
+}
+.service-image-1 img,.service-image-2 img{
+    width: 100%;
+}
+.service-image-2:hover{
+    z-index: 2;
+}
+.service-images{
+    height: 700px;
+}
+@media (width<1200px){
+    .service-images{
+        height: 600px;
+    }
+}
+@media (width<1000px){
+    .service-images{
+        height: 500px;
+    }
+}
+@media (width<800px){
+    .service-images{
+        height: 400px;
+    }
+}
 
-
+@media (width<600px){
+    .service-images{
+        height: 300px;
+    }
+}
