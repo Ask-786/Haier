@@ -80,6 +80,10 @@ body{
     font-weight: 700;
     text-align: center;
 }
+
+
+
+
 .product-details{
     padding-bottom: 50px;
     background-color: #edf0f3;
@@ -144,4 +148,28 @@ body{
         background-color: #edf0f3;
     }
 }
+.heading-expansion{
+    text-overflow:ellipsis ;
+    overflow: hidden;
+    display: -webkit-box;
+   -webkit-line-clamp: 1;
+   -webkit-box-orient: vertical;
+   cursor: pointer;
+}
+.discription-expansion{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient:vertical;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: 'Effra-Bold'Arial;
+}
+.date-with-year{
+    color: #0C5CA7;
+    font-weight: 500;
+    position: relative;
+}
+
 
