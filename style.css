@@ -269,9 +269,7 @@ footer{
     width: fit-content;
     bottom: 0;
 }
-a:hover{
-    text-decoration: underline;
-}
+
 .copyright{
     width: fit-content;
     height: 50px;
@@ -284,11 +282,14 @@ a:hover{
 }
 .other-links{
     width: 100%;
+    text-align: center;
 }
 .other-links a{
     font-family: 'Effra-Regular',Arial;
     font-size: 12px;
     font-weight: 400;
+    color: white;
+    text-decoration: none;
 }
 .devider-other-links{
     padding-left: 5px;
@@ -298,4 +299,7 @@ a:hover{
     height: 0.5px;
     width: 100%;
     border-bottom: 0.5px solid rgb(107, 107, 107);
+}
+a:hover{
+    text-decoration: underline;
 }
